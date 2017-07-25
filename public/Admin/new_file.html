@@ -1,9 +1,62 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-	</body>
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>几行简单的jQuery代码搞定tab标签切换效果</title>
+<style>
+	.Notice {width:170px;margin:0 auto;}
+.Notice_tab {overflow:hidden;zoom:1;font-size: 12px; padding: 8px 0 4px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    line-height: 14px;
+}
+.Notice_tab li {float:left;color:#666;height:30px;	cursor:pointer;	line-height:30px;}
+.Notice_tab li.current {color: red;border-bottom: 1px solid #F11A28;}
+.Notice_content {}
+.Notice_content ul {line-height:25px;display:none;}
+	
+</style>
+</head>
+
+<body>
+<div class="Notice">
+								    <ul class="Notice_tab">
+								        <li class="current fl">促销</li>
+								        <li class="fl">公告</li>
+								    </ul>
+								    <div class="Notice_content">
+								        <ul style="display:block;">
+								        	<li class="Beyond_hide">是地方蝴蝶结开发的开放开的的经适房看</li>
+								        	<li class="Beyond_hide">是地方蝴蝶结开发的开放开的的经适房看</li>
+								        </ul>
+								        <ul>
+								          <li class="Beyond_hide">啊内容诶柔佛额啊内容诶柔佛额</li>
+								        	<li class="Beyond_hide">啊内容诶柔佛额啊内容诶柔佛额</li>
+								        </ul>
+								    </div>
+								</div>
+		
+
+<script src="../static/js/jquery.min.js"></script>
+<script>
+	$(function(){
+		window.onload = function()
+		{
+			var $li = $('.Notice_tab li');
+			var $ul = $('.Notice_content ul');
+						
+			$li.mouseover(function(){
+				var $this = $(this);
+				var $t = $this.index();
+				$li.removeClass();
+				$this.addClass('current');
+				$ul.css('display','none');
+				$ul.eq($t).css('display','block');
+			})
+		}
+	});
+</script>
+
+</body>
 </html>
