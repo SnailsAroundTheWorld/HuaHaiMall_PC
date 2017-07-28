@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1501144713999'); /* IE9*/
-  src: url('iconfont.eot?t=1501144713999#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1501144713999') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1501144713999') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1501144713999#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1501227191478'); /* IE9*/
+  src: url('iconfont.eot?t=1501227191478#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1501227191478') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1501227191478') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1501227191478#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -35,5 +35,11 @@
 
 .icon-huiyuan:before { content: "\e606"; }
 
+.icon-yousanjiao-copy-copy:before { content: "\e60a"; }
+
+.icon-xin:before { content: "\e6cf"; }
+
 .icon-xiangji:before { content: "\e6fc"; }
+
+.icon-kefu:before { content: "\e609"; }
 

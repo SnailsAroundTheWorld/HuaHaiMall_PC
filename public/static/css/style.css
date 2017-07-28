@@ -73,7 +73,6 @@ body {
 	width: 100%;
 	border-bottom: 1px solid #ddd;
 	background-color: #e3e4e5;
-	margin-bottom: 25px;
 }
 
 .nav_div .nav_ul {
@@ -768,7 +767,7 @@ body {
 .Eight_ad_positions>img{margin-right:-2px;}
 .Eight_ad_positions>img:last-child{margin-right: 0;}
 
-
+#header{margin-bottom: 25px;}
 #menu {
 	position:fixed;
 	top:20%;
@@ -822,3 +821,66 @@ body {
 	background:#c81623;
 	color:white;
 }
+
+
+/*店铺首页*/
+.banner_div_shop{width: 100%;height:100px;background: #fff;border-bottom: 2px #999 solid;margin-bottom: 10px;}
+.Division_hr1{height: 50px;width: 1px;background: #ccc;margin-top:25px;}
+.contact_service{padding: 2px 5px;background: #F39701;border-radius:100px;color: #fff;font-size: 12px;}
+.contact_service_icon{color:#C91521; font-size: 26px;}
+.contact_shop{padding:20px 0 0 15px;}
+.shop_search_div{width:500px;height:40px;margin: 30px 0;}
+.shop_search_div>input{  height: 35px; width:305px; display: inline; border:2px solid #C91521;font-size:16px;padding-left: 10px;}
+.shop_search_div>.button{outline: none; width:80px;height: 39px;border: 1px red;margin-right: 20px;background:#C91521;color: #fff;font-size: 16px;text-align: center;line-height: 37px;}
+.shop_search_div>.button:last-child{margin-right: 0;background:#999999;}
+
+.Collection{padding: 15px  0 0 0;}
+.Collection_div{width:79px;margin:0 auto;}
+.Collection_div>span{padding: 2px 5px;background: #F39701;border-radius:100px;color: #fff;font-size: 12px;}
+.Collection_div>span>li{color:#f5f5f5; font-size: 18px;margin-top: 10px;}
+.Division_hr2{height: 85px;width: 1px;background: #ccc;margin-top:25px;}	
+.red_bag_div{width:615px;}			
+.red_bag_div fieldset{
+	margin-top: 4px;
+border: none;
+border-top: 2px solid red;
+color: red;
+font-size: 14px;
+}
+.red_bag_div fieldset legend{
+	padding: 0 2px;
+}
+.red_bag{width:75px;height: 75px;padding:16px 0 3px 0;margin-top:5px;text-align: center; background: url(../img/bg01.png) no-repeat ;background-size:100% 100%;margin-right:5px;}
+.red_bag>h1{color: #fff;}
+.red_bag_satisfy{font-size: 12px;color: #fff;display: block;padding: 0 5px;}
+.red_bag:last-child{margin-right: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
