@@ -47,10 +47,10 @@
 					<div class="Search_box_div clean_float">
 						<input class="fl Search_box_input clean_float" type="text" name="Search" id="" placeholder="电脑" />
 						<div class="Search_box_camera clean_float">
-							<i class="iconfont">&#xe6fc;</i>
+							<i class="iconfont search-icon">&#xe6fc;</i>
 						</div>
 						<div class="fl Search_box_search clean_float">
-							<i class="iconfont icon_weight">&#xe6af;</i>
+							<i class="iconfont icon_weight search-icon">&#xe6af;</i>
 						</div>
 					</div>
 					<ul class="Search_box_cue clean_float">
@@ -3110,10 +3110,12 @@
 			$(document).ready(function(){
     		//parseInt
     		var Width =$(window).width();
-    		$("#menu").css("left",(Width-1300)/2+"px");
+    		$("#menu").css("left",(Width-1290)/2+"px");
+    		if(Width<1280){
+    			$("#menu").css("display","none")
+			}
     	})
 	    </script>
-		</script>
 		<!--左侧定位导航-->
 		<script type="text/javascript">
 			/*楼层内容结束*/

@@ -36,20 +36,52 @@ body {
 .big_outer_border {
 	width: 1190px;
 	margin: 0 auto !important;
-	/*position: relative;*/
+	position: relative;
 }
- .width{width:100%;}
- .width1{width:49.5%;}
- .width2{width:33%;}
-.width2:nth-child(2){margin:0 0.5%;}
- .width3{width: 66%;margin-right:0.5%;}
- .width4{width: 16.5%;margin-right: 0.5%;}
- .width4:last-child{margin-right:0}
- .width5{width: 16.5%;position: relative;}
- .width6{width: 66.5%;margin-left: 16.5%;}
- .width7{width: 16%;}
 
+.width {
+	width: 100%;
+}
 
+.width1 {
+	width: 49.5%;
+}
+
+.width2 {
+	width: 33%;
+}
+
+.width2:nth-child(2) {
+	margin: 0 0.5%;
+}
+
+.width3 {
+	width: 66%;
+	margin-right: 0.5%;
+}
+
+.width4 {
+	width: 16.5%;
+	margin-right: 0.5%;
+}
+
+.width4:last-child {
+	margin-right: 0
+}
+
+.width5 {
+	width: 16.5%;
+	position: relative;
+}
+
+.width6 {
+	width: 66.5%;
+	margin-left: 16.5%;
+}
+
+.width7 {
+	width: 16%;
+}
 
 .col-lg-2,
 .col-lg-8,
@@ -109,7 +141,7 @@ body {
 	line-height: 30px;
 	width: 1px;
 	height: 10px;
-	margin: 5px 10px 0 10px;
+	margin: 5px 15px 0 15px;
 	background-color: #ccc;
 }
 
@@ -134,6 +166,15 @@ body {
 	width: 542px;
 	border: 1px solid red;
 	position: relative;
+}
+
+.search-icon {
+	font-size: 26px;
+}
+
+.icon-gouwuche {
+	font-size: 26px;
+	font-weight: 500;
 }
 
 .Search_box_input {
@@ -185,7 +226,7 @@ body {
 	width: 130px;
 	height: 35px;
 	font-weight: 600;
-	color: red;
+	color: #F11A28;
 	border: 1px solid #CCC;
 	line-height: 35px;
 	position: relative;
@@ -1210,9 +1251,9 @@ body {
 	margin-right: 0;
 }
 
-.shop_top_nav{
+.shop_top_nav {
 	padding-bottom: 7px;
-} 
+}
 
 .shop_nav {
 	background: #C91521;
@@ -1335,3 +1376,122 @@ body {
 	display: inline;
 	font-size: 2em;
 }
+
+
+/*个人中心*/
+
+.MyCenter_div {}
+
+.MyCenter_div .Shopping_Car_box {
+	border: 0;
+}
+
+.MyCenter_div .logo_nav {
+	height: 78px;
+	width: 100%;
+	background: #e45050;
+	margin-bottom:20px;
+}
+
+.MyCenter_div .logo_nav .ul_title {
+	margin-left: 150px;
+	line-height: 78px;
+	color: #fff;
+}
+
+.MyCenter_div .logo_nav .ul_title>li {
+	padding: 0 10px;
+	margin: 0 30px;
+}
+
+.MyCenter_div .logo_nav .search_ShopCart {
+	width: 390px;
+	padding-top: 21px;
+}
+
+.MyCenter_div .logo_nav .search_ShopCart .search_div {
+	width: 240px;
+	height: 37px;
+	position: relative;
+}
+
+.MyCenter_div .logo_nav .search_ShopCart .search_div>input {
+	width: 175px;
+	height: 26px;
+	padding: 5px 0;
+	border: 0;
+}
+
+.MyCenter_div .logo_nav .search_ShopCart .search_div>button {
+	width: 65px;
+	height: 36px;
+	background: #f5f5f5;
+	border: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 16px;
+}
+
+.drop-down-li {
+	position: relative;
+}
+
+.drop-down-li .Hidden_menu {
+	position: absolute;
+	top: 58px;
+	left: 5px;
+	z-index: 10;
+	background: #fff;
+	display: none;
+	color: #000;
+	width: 98px;
+	text-align: center;
+}
+
+.drop-down-li>.Hidden_menu>li {
+	line-height: 30px;
+	height: 30px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	margin: 0 !important;
+}
+
+.drop-down-li .triangle {
+	border-style: solid;
+	border-width: 6px;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	position: absolute;
+	width: 0;
+	border-color: transparent transparent #fff;
+	_border-color: #ff4401 #ff4401 #fff;
+	left: 50%;
+	top: 45px;
+	margin-left: -6px;
+	box-shadow: 0 1px 0 #fff;
+	bottom: 2px;
+	display: none;
+}
+.drop-down-li:hover ul {
+	display: block !important;
+}
+
+.drop-down-li:hover .triangle {
+	display: block !important;
+}
+
+.MyCenter_div dl{padding-left:20px;font-size: 12px;padding-bottom: 15px;}
+.MyCenter_div dl dt{    height: 28px;
+    line-height: 28px;font-weight:700; color: #333;}
+.MyCenter_div dl dd{line-height: 24px;}
+.MyCenter_div dl dd:hover a{color: #e4393c;
+    text-decoration: underline;}
+
+
+
+
+
+
+

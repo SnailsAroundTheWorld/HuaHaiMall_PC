@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>规格编辑</title>
+		<style>
+			.clean_float:after {
+				content: ".";
+				visibility: hidden;
+				height: 0;
+				display: block;
+				clear: both;
+			}
+			
+			input,
+			textarea {
+				outline: none;
+			}
+			
+			input:-moz-placeholder {
+				/* Mozilla Firefox 4 to 18 */
+				color: #999999;
+				font-family: "微软雅黑";
+			}
+			
+			input::-moz-placeholder {
+				/* Mozilla Firefox 19+ */
+				color: #999999;
+				font-family: "微软雅黑";
+			}
+			
+			input:-ms-input-placeholder {
+				color: #999999;
+				font-family: "微软雅黑";
+			}
+			
+			input::-webkit-input-placeholder {
+				color: #999999;
+				font-family: "微软雅黑";
+			}
+			
+			.fl {
+				float: left;
+			}
+			
+			.fr {
+				float: right;
+			}
+			
+			.edit-div {
+				width: 600px;
+				height: 600px;
+				font-family: '微软雅黑';
+			}
+			
+			.edit-hr {
+				width: 92%;
+				margin: 0 auto;
+				background: red;
+			}
+			
+			.edit-nav {
+				width: 570px;
+				padding: 10px 0;
+				padding-left: 30px;
+				font-weight: 600;
+				background: blue;
+				color: #fff;
+				font-size: 20px;
+			}
+			
+			.edit-info {
+				width: 540;
+				padding: 10px 0;
+				padding-left: 30px;
+				color: #000;
+				font-size: 18px;
+			}
+			
+			.edit-info .inpu-div {
+				width: 483px;
+				padding: 10px 0 0 0;
+				padding-left: 57px;
+			}
+			
+			.edit-info .inpu-div>div {
+				padding: 5px 0;
+			}
+			
+			.edit-info .inpu-div>div label {
+				padding: 5px 0;
+				padding: 8px 10px;
+				color: #5F5F5F;
+				font-size: 18px;
+			}
+			
+			.edit-info .inpu-div>div input,
+			.edit-fit input {
+				font-size: 16px;
+				color: #999999;
+				padding: 13px 10px 7px 10px;
+				width: 400px;
+				box-shadow: 1px 1px 1px rgba(114, 114, 114, 0.5);
+				border: 1px solid #727272;
+			}
+			
+			.edit-info .inpu-div>div textarea {
+				font-size: 16px;
+				color: #999999;
+				padding: 10px;
+				width: 400px;
+				box-shadow: 1px 1px 1px rgba(114, 114, 114, 0.5);
+				border: 1px solid #727272;
+				word-break: break-all;
+				font-family: "微软雅黑";
+			}
+			
+			.edit-fit-div {
+				height: 241px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			
+			.edit-fit {
+				position: relative;
+				width: 422px;
+			}
+			.edit-fit1{height: 150px;
+				overflow-y: auto;}
+			.edit-label {
+				visibility: hidden;
+			}
+			
+			.add-btn {
+				position: absolute;
+				right: 0px;
+				top: 0px;
+				width: 70px;
+				text-align: center;
+				padding: 10px 0;
+				background: #999;
+				color: #fff;
+				font-size: 16px;
+			}
+			
+			.add-info-div {
+				border-radius: 50px;
+				border: 1px solid;
+				font-size: 14px;
+				margin-right: 10px;
+				padding: 7px 10px;
+				margin: 2px 10px 5px 0;
+			}
+			
+			.add-info-div>span {
+				margin-right: 10px;
+			}
+			
+			.add-info-div>.close-btn {
+				border: 1px solid #000;
+				width: 15px;
+				height: 15px;
+				text-align: center;
+				line-height: 15px;
+				font-size: 12px;
+			}
+			
+			.bottom-nav {
+				background: #ccc;
+			}
+			
+			.bottom-nav>.close-btn {
+				background: #999999;
+				border: 0;
+				font-size: 16px;
+				color: #fff;
+				padding: 7px 25px;
+				border-radius: 3px;
+				box-shadow: 1px 1px 1px rgba(114, 114, 114, 0.5);
+				margin-right: 30px
+			}
+			
+			.bottom-nav>.keep-btn {
+				background: #0000FF;
+				border: 0;
+				font-size: 16px;
+				color: #fff;
+				padding: 7px 25px;
+				border-radius: 3px;
+				box-shadow: 1px 1px 1px rgba(114, 114, 114, 0.5);
+				margin-right: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="edit-div">
+			<div class="edit-nav">
+				规格编辑
+			</div>
+			<div class="edit-info clean_float">
+				<b>基本信息</b>
+				<div class="inpu-div">
+					<div class="clean_float">
+						<label for="info-name" class="fl">名称</label>
+						<input type="text" name="info-name" id="info-name" value="" placeholder="颜色" />
+					</div>
+					<div class="clean_float">
+						<label for="info-details" class="fl">备注</label>
+						<textarea id="info-details" name="info-name" rows="5" cols="20">
+读书读书神盾局神盾局山东世纪的还是接电话手机端手机端开始看近段时间的手机宽带sdfsfdsdfsdkfjdskl
+							</textarea>
+					</div>
+				</div>
+			</div>
+			<hr class="edit-hr" />
+			<div class="edit-info clean_float edit-fit-div">
+				<b>规格设置</b>
+				<div class="inpu-div clean_float">
+					<div class="clean_float">
+						<div class="edit-fit clean_float fr">
+							<input type="text" name="info-name" id="info-name" value="" placeholder="黑色/白色/黄色" />
+							<span class="add-btn">
+								添加	
+							</span>
+						</div>
+
+					</div>
+					<div class="clean_float f">
+						<div class="edit-fit fr clean_float edit-fit1">
+							<div class="fl clean_float add-info-div">
+								<span class="fl">玫瑰金 </span>
+								<div class="fr close-btn">X</div>
+							</div>
+							<div class="fl clean_float add-info-div">
+								<span class="fl">土豪金 </span>
+								<div class="fr close-btn">X</div>
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="edit-nav clean_float bottom-nav">
+				<button class="fr close-btn">关闭</button>
+				<button class="fr keep-btn">保存</button>
+			</div>
+		</div>
+	</body>
+</html>
