@@ -1384,32 +1384,23 @@ body {
 
 .MyCenter_div .Shopping_Car_box {
 	border: 0;
-	font-size: 14px;
 }
 
-.MyCenter_div .Shopping_Car_box .badge{
-	right: 14px;
-}
-.MyCenter_div .Shopping_Car_box .Car_box_next{
-	margin-left:8px;
-	color: #999;
-	font-size: 12px;
-}
 .MyCenter_div .logo_nav {
 	height: 78px;
 	width: 100%;
 	background: #e45050;
-	margin-bottom: 20px;
+	margin-bottom:20px;
 }
 
 .MyCenter_div .logo_nav .ul_title {
 	margin-left: 150px;
+	line-height: 78px;
 	color: #fff;
-	padding-top: 20px;
 }
 
 .MyCenter_div .logo_nav .ul_title>li {
-	padding: 10px 10px;
+	padding: 0 10px;
 	margin: 0 30px;
 }
 
@@ -1448,27 +1439,25 @@ body {
 
 .drop-down-li .Hidden_menu {
 	position: absolute;
-	top: 41px;
-	left: -1px;
+	top: 58px;
+	left: 5px;
 	z-index: 10;
 	background: #fff;
 	display: none;
 	color: #000;
-	width: 104px;
-	border: 1px solid #ccc;
-	border-top: 0;
-	font-size: 12px;
+	width: 98px;
+	text-align: center;
 }
 
 .drop-down-li>.Hidden_menu>li {
-    margin: 0 !important;
-    padding: 0 0 10px 10px;
-    height: 20px;
-    line-height: 30px;
+	line-height: 30px;
+	height: 30px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	margin: 0 !important;
 }
 
-
-/*.drop-down-li .triangle {
+.drop-down-li .triangle {
 	border-style: solid;
 	border-width: 6px;
 	font-size: 0;
@@ -1484,27 +1473,7 @@ body {
 	box-shadow: 0 1px 0 #fff;
 	bottom: 2px;
 	display: none;
-}*/
-
-.drop-down-li .upper {
-	display: none;
 }
-
-.drop-down-li:hover {
-	background: #fff;
-	color: #000;
-	border: 1px solid #ccc;
-	border-bottom: 0;
-}
-
-.drop-down-li:hover .upper {
-	display: initial !important;
-}
-
-.drop-down-li:hover .next {
-	display: none;
-}
-
 .drop-down-li:hover ul {
 	display: block !important;
 }
@@ -1513,171 +1482,12 @@ body {
 	display: block !important;
 }
 
-.Hidden_menu li:hover a {
-	color: #e4393c;
-	;
-}
-
-.Hidden_menu li:hover {
-	background: #f5f5f5;
-}
-
-.MyCenter_div dl {
-	padding-left: 20px;
-	font-size: 12px;
-}
-
-.MyCenter_div dl dt {
-	height: 28px;
-	line-height: 28px;
-	font-weight: 700;
-	color: #333;
-}
-
-.MyCenter_div dl dd {
-	line-height: 24px;
-}
-
-.MyCenter_div .right-nav{
-	width: 120px;
-	
-}
-.MyCenter_div .right-nav dl dd:hover a {
-	color: #e4393c;
-	text-decoration: underline;
-}
-.MyCenter_div .right-nav dl {
-	padding-bottom: 15px;
-}
-
-.MyCenter_div .content{
-	width: 1190px;
-	margin:0 auto;
-	}
-
-.MyCenter_div .basic_info_div{
-	height: 140px;
-	width: 1033px;
-	padding:23px 0 18px 22px;
-	background: #fff;
-	margin-bottom:20px;
-}
-
-.MyCenter_div .basic_info_div .img_div{
-	width:580px;
-	margin-left:70px;
-}
-.MyCenter_div .basic_info_div .img_div>li{
-	font-size: 14px;
-	width: 25%;
-	color: #999999;
-	text-align: center;
-}
-.MyCenter_div .basic_info_div .img_div span{
-	color: #c81625;
-}
-
-.MyCenter_div .basic_info_div .vip-info{
-	width: 290px;
-}
-
-.MyCenter_div .basic_info_div .vip-info .li-hr{
-	width: 1px;height: 120px;margin: -8px 0px 0 20px; background: #ccc;
-}
-.MyCenter_div .basic_info_div .vip-info li dd{
-	color:#1d62ad;
-	
-}
-
-.MyCenter_div .basic_info_div .vip-info li dd .icon{
-	color:#ffb400;font-size: 24px;margin-left: 3px;
-	
-}
-.MyCenter_div .basic_info_div .vip-info li .progress-bar-div{
-	background: #ccc;height: 10px;width:90px;display: block;position: relative;
-}
-
-.MyCenter_div .basic_info_div .vip-info li .progress{
-	height: 100%;width: 40px;background: #FB9735;position: absolute;top: 0;left: 0;
-}
-
-.MyCenter_div .basic_info_div .vip-info li .progress-font{
-	color:#ffb400;line-height: 10px;font-size: 12px;margin-left: 3px;
-}
-
-.MyCenter_div .left-content{
-	width:1055px ;padding-left: 15px;
-	}
-
-.MyCenter_div .left-content .li-hr{
-	width: 1px;height: 10px;background: #101010;margin: 10px 10px 0 10px;
-	}
-
-.MyCenter_div .left-content .content{
-	width: 100%;
-	}
-
-.MyCenter_div .left-content .content .MyOrder{
-	width:735px;min-height:276px; background: #fff;margin-bottom: 20px; padding:23px 0 18px 22px;
-}
-
-.MyCenter_div .more_shop{
-	font-size: 12px;vertical-align: bottom;margin-right: 10px;
-}
-.MyCenter_div .MyOrder ul{margin-top:25px;}
-
-.MyCenter_div .MyOrder ul .common{height: 58px;font-size: 14px;text-align:center;line-height: 58px;margin-top: 17px;}
-.MyCenter_div .MyOrder ul .name{width:130px;color: #000;margin:0 0 0 20px;margin-top: 17px;height: 58px;font-size: 14px;}
-
-.MyCenter_div .MyOrder ul .Model{width:130px;color: #999;}
-.MyCenter_div .MyOrder ul .number{width:70px;color: #000;}
-.MyCenter_div .MyOrder ul .Price{width:120px;color: red;}
-
-.MyCenter_div .MyOrder ul .state{width:90px;color: #333;}
-
-.MyCenter_div .MyOrder ul .li-hr{width:1px;height: 58px;background: #ddd;margin-top: 17px;}
-
-.MyCenter_div .Recommend{width:735px;background: #fff;margin-bottom: 20px; padding:23px 0 11px 22px;}
-.MyCenter_div .Recommend:last-child{margin-bottom:0;}
-.MyCenter_div .Recommend ul{margin-top: 30px;}
-
-.MyCenter_div .Recommend ul li{width: 25%; text-align: center;}
-
-.MyCenter_div .Recommend ul li p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:93%;font-size: 14px;margin:3px 0 10px 0;}
-
-.MyCenter_div .Recommend ul li div{width: 90%;}
-
-.MyCenter_div .Recommend ul li div .price{color:#ec0404;}
-.MyCenter_div .Recommend ul li div .Alike{border: 1px solid #999;border-radius:10px;font-size: 12px;color: #999;padding:1px 3px;}
-
-
-.MyCenter_div .business{width:287px;height:558px; background: #fff; padding: 23px 0 18px 0px}
-.MyCenter_div .business h4{ padding-left:22px;margin-bottom: 10px;}
-.MyCenter_div .business ul li {background: #f5f5f5;width: 47%; margin:6px 2%;text-align: center; padding:7px 0;}
-.MyCenter_div .business ul li:nth-child(2n) {margin-left: 0;}
-.MyCenter_div .business ul li p{text-align: center;color: #999;font-size: 13.5px;line-height: 20px;padding: 10px 0;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.MyCenter_div dl{padding-left:20px;font-size: 12px;padding-bottom: 15px;}
+.MyCenter_div dl dt{    height: 28px;
+    line-height: 28px;font-weight:700; color: #333;}
+.MyCenter_div dl dd{line-height: 24px;}
+.MyCenter_div dl dd:hover a{color: #e4393c;
+    text-decoration: underline;}
 
 
 
