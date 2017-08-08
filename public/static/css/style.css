@@ -1,5 +1,7 @@
 @charset "utf-8";
-* {
+*,
+body,
+html {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -1387,14 +1389,16 @@ body {
 	font-size: 14px;
 }
 
-.MyCenter_div .Shopping_Car_box .badge{
+.MyCenter_div .Shopping_Car_box .badge {
 	right: 14px;
 }
-.MyCenter_div .Shopping_Car_box .Car_box_next{
-	margin-left:8px;
+
+.MyCenter_div .Shopping_Car_box .Car_box_next {
+	margin-left: 8px;
 	color: #999;
 	font-size: 12px;
 }
+
 .MyCenter_div .logo_nav {
 	height: 78px;
 	width: 100%;
@@ -1461,10 +1465,10 @@ body {
 }
 
 .drop-down-li>.Hidden_menu>li {
-    margin: 0 !important;
-    padding: 0 0 10px 10px;
-    height: 20px;
-    line-height: 30px;
+	margin: 0 !important;
+	padding: 0 0 10px 10px;
+	height: 20px;
+	line-height: 30px;
 }
 
 
@@ -1538,150 +1542,305 @@ body {
 	line-height: 24px;
 }
 
-.MyCenter_div .right-nav{
+.MyCenter_div .right-nav {
 	width: 120px;
-	
 }
+
 .MyCenter_div .right-nav dl dd:hover a {
 	color: #e4393c;
 	text-decoration: underline;
 }
+
 .MyCenter_div .right-nav dl {
 	padding-bottom: 15px;
 }
 
-.MyCenter_div .content{
+.MyCenter_div .content {
 	width: 1190px;
-	margin:0 auto;
-	}
+	margin: 0 auto;
+}
 
-.MyCenter_div .basic_info_div{
+.MyCenter_div .basic_info_div {
 	height: 140px;
 	width: 1033px;
-	padding:23px 0 18px 22px;
+	padding: 23px 0 18px 22px;
 	background: #fff;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
 
-.MyCenter_div .basic_info_div .img_div{
-	width:580px;
-	margin-left:70px;
+.MyCenter_div .basic_info_div .img_div {
+	width: 580px;
+	margin-left: 70px;
 }
-.MyCenter_div .basic_info_div .img_div>li{
+
+.MyCenter_div .basic_info_div .img_div>li {
 	font-size: 14px;
 	width: 25%;
 	color: #999999;
 	text-align: center;
 }
-.MyCenter_div .basic_info_div .img_div span{
+
+.MyCenter_div .basic_info_div .img_div span {
 	color: #c81625;
 }
 
-.MyCenter_div .basic_info_div .vip-info{
+.MyCenter_div .basic_info_div .vip-info {
 	width: 290px;
 }
 
-.MyCenter_div .basic_info_div .vip-info .li-hr{
-	width: 1px;height: 120px;margin: -8px 0px 0 20px; background: #ccc;
-}
-.MyCenter_div .basic_info_div .vip-info li dd{
-	color:#1d62ad;
-	
-}
-
-.MyCenter_div .basic_info_div .vip-info li dd .icon{
-	color:#ffb400;font-size: 24px;margin-left: 3px;
-	
-}
-.MyCenter_div .basic_info_div .vip-info li .progress-bar-div{
-	background: #ccc;height: 10px;width:90px;display: block;position: relative;
+.MyCenter_div .basic_info_div .vip-info .li-hr {
+	width: 1px;
+	height: 120px;
+	margin: -8px 0px 0 20px;
+	background: #ccc;
 }
 
-.MyCenter_div .basic_info_div .vip-info li .progress{
-	height: 100%;width: 40px;background: #FB9735;position: absolute;top: 0;left: 0;
+.MyCenter_div .basic_info_div .vip-info li dd {
+	color: #1d62ad;
 }
 
-.MyCenter_div .basic_info_div .vip-info li .progress-font{
-	color:#ffb400;line-height: 10px;font-size: 12px;margin-left: 3px;
+.MyCenter_div .basic_info_div .vip-info li dd .icon {
+	color: #ffb400;
+	font-size: 24px;
+	margin-left: 3px;
 }
 
-.MyCenter_div .left-content{
-	width:1055px ;padding-left: 15px;
-	}
+.MyCenter_div .basic_info_div .vip-info li .progress-bar-div {
+	background: #ccc;
+	height: 10px;
+	width: 90px;
+	display: block;
+	position: relative;
+}
 
-.MyCenter_div .left-content .li-hr{
-	width: 1px;height: 10px;background: #101010;margin: 10px 10px 0 10px;
-	}
+.MyCenter_div .basic_info_div .vip-info li .progress {
+	height: 100%;
+	width: 40px;
+	background: #FB9735;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
-.MyCenter_div .left-content .content{
+.MyCenter_div .basic_info_div .vip-info li .progress-font {
+	color: #ffb400;
+	line-height: 10px;
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.MyCenter_div .left-content {
+	width: 1055px;
+	padding-left: 15px;
+}
+
+.MyCenter_div .left-content .li-hr {
+	width: 1px;
+	height: 10px;
+	background: #101010;
+	margin: 10px 10px 0 10px;
+}
+
+.MyCenter_div .left-content .content {
 	width: 100%;
-	}
-
-.MyCenter_div .left-content .content .MyOrder{
-	width:735px;min-height:276px; background: #fff;margin-bottom: 20px; padding:23px 0 18px 22px;
 }
 
-.MyCenter_div .more_shop{
-	font-size: 12px;vertical-align: bottom;margin-right: 10px;
+.MyCenter_div .left-content .content .MyOrder {
+	width: 735px;
+	min-height: 276px;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 23px 0 18px 22px;
 }
-.MyCenter_div .MyOrder ul{margin-top:25px;}
 
-.MyCenter_div .MyOrder ul .common{height: 58px;font-size: 14px;text-align:center;line-height: 58px;margin-top: 17px;}
-.MyCenter_div .MyOrder ul .name{width:130px;color: #000;margin:0 0 0 20px;margin-top: 17px;height: 58px;font-size: 14px;}
+.MyCenter_div .more_shop {
+	font-size: 12px;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
 
-.MyCenter_div .MyOrder ul .Model{width:130px;color: #999;}
-.MyCenter_div .MyOrder ul .number{width:70px;color: #000;}
-.MyCenter_div .MyOrder ul .Price{width:120px;color: red;}
+.MyCenter_div .MyOrder ul {
+	margin-top: 25px;
+}
 
-.MyCenter_div .MyOrder ul .state{width:90px;color: #333;}
+.MyCenter_div .MyOrder ul .common {
+	height: 58px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 58px;
+	margin-top: 17px;
+}
 
-.MyCenter_div .MyOrder ul .li-hr{width:1px;height: 58px;background: #ddd;margin-top: 17px;}
+.MyCenter_div .MyOrder ul .name {
+	width: 130px;
+	color: #000;
+	margin: 0 0 0 20px;
+	margin-top: 17px;
+	height: 58px;
+	font-size: 14px;
+}
 
-.MyCenter_div .Recommend{width:735px;background: #fff;margin-bottom: 20px; padding:23px 0 11px 22px;}
-.MyCenter_div .Recommend:last-child{margin-bottom:0;}
-.MyCenter_div .Recommend ul{margin-top: 30px;}
+.MyCenter_div .MyOrder ul .Model {
+	width: 130px;
+	color: #999;
+}
 
-.MyCenter_div .Recommend ul li{width: 25%; text-align: center;}
+.MyCenter_div .MyOrder ul .number {
+	width: 70px;
+	color: #000;
+}
 
-.MyCenter_div .Recommend ul li p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width:93%;font-size: 14px;margin:3px 0 10px 0;}
+.MyCenter_div .MyOrder ul .Price {
+	width: 120px;
+	color: red;
+}
 
-.MyCenter_div .Recommend ul li div{width: 90%;}
+.MyCenter_div .MyOrder ul .state {
+	width: 90px;
+	color: #333;
+}
 
-.MyCenter_div .Recommend ul li div .price{color:#ec0404;}
-.MyCenter_div .Recommend ul li div .Alike{border: 1px solid #999;border-radius:10px;font-size: 12px;color: #999;padding:1px 3px;}
+.MyCenter_div .MyOrder ul .li-hr {
+	width: 1px;
+	height: 58px;
+	background: #ddd;
+	margin-top: 17px;
+}
+
+.MyCenter_div .Recommend {
+	width: 735px;
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 23px 0 11px 22px;
+}
+
+.MyCenter_div .Recommend:last-child {
+	margin-bottom: 0;
+}
+
+.MyCenter_div .Recommend ul {
+	margin-top: 30px;
+}
+
+.MyCenter_div .Recommend ul li {
+	width: 25%;
+	text-align: center;
+}
+
+.MyCenter_div .Recommend ul li p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 93%;
+	font-size: 14px;
+	margin: 3px 0 10px 0;
+}
+
+.MyCenter_div .Recommend ul li div {
+	width: 90%;
+}
+
+.MyCenter_div .Recommend ul li div .price {
+	color: #ec0404;
+}
+
+.MyCenter_div .Recommend ul li div .Alike {
+	border: 1px solid #999;
+	border-radius: 10px;
+	font-size: 12px;
+	color: #999;
+	padding: 1px 3px;
+}
+
+.MyCenter_div .business {
+	width: 287px;
+	height: 558px;
+	background: #fff;
+	padding: 23px 0 18px 0px
+}
+
+.MyCenter_div .business h4 {
+	padding-left: 22px;
+	margin-bottom: 10px;
+}
+
+.MyCenter_div .business ul li {
+	background: #f5f5f5;
+	width: 47%;
+	margin: 6px 2%;
+	text-align: center;
+	padding: 7px 0;
+}
+
+.MyCenter_div .business ul li:nth-child(2n) {
+	margin-left: 0;
+}
+
+.MyCenter_div .business ul li p {
+	text-align: center;
+	color: #999;
+	font-size: 13.5px;
+	line-height: 20px;
+	padding: 10px 0;
+}
 
 
-.MyCenter_div .business{width:287px;height:558px; background: #fff; padding: 23px 0 18px 0px}
-.MyCenter_div .business h4{ padding-left:22px;margin-bottom: 10px;}
-.MyCenter_div .business ul li {background: #f5f5f5;width: 47%; margin:6px 2%;text-align: center; padding:7px 0;}
-.MyCenter_div .business ul li:nth-child(2n) {margin-left: 0;}
-.MyCenter_div .business ul li p{text-align: center;color: #999;font-size: 13.5px;line-height: 20px;padding: 10px 0;}
+/*结尾*/
 
+.Ending {
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #dedede;
+}
 
+.Ending>ul {
+	width: 1100px;
+	margin: 0px auto;
+	padding: 40px 0 20px 0;
+}
 
+.Ending>ul>li {
+	width: 25%;
+}
 
+.Ending>ul>li>img {
+	margin-right: 5px;
+}
 
+.Ending-font {
+	width: 100%;
+	background: #eaeaea;
+}
 
+.Ending-font>ul {
+	width: 1190px;
+	margin: 0px auto 20px auto;
+	padding:20px 0;
+	border-bottom: 1px solid #ccc;
+	
+}
 
+.Ending-font>ul>li {
+	width: 12%;
+	margin-left:6%;
+}
 
+.Ending-font>ul>li>ul>li {
+	display: block;
+	font-size: 12px;
+	color: #666;
+	line-height: 21px;
+}
 
+.Ending-font>ul>li>ul>li:first-child {
+	font-size: 17px;
+	color: #68686c;
+	line-height: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Ending-font>p {
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	text-align: center;
+}
