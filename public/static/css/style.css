@@ -344,8 +344,8 @@ body {
 
 .font-item1 {
 	position: absolute;
-	left: 276px;
-	top: 175px;
+	left: 197px;
+	top: 115px;
 	z-index: 100;
 	font-size: 12px;
 	width: 999px;
@@ -1844,3 +1844,57 @@ body {
 	line-height: 20px;
 	text-align: center;
 }
+/*鼠标控制菜单显示*/
+.Parent{
+	position: relative;
+	}
+	
+.Parent_title{
+	width:16.5%;
+	height:40px;
+	background:#B1191A;
+	/*background:#6e6568;
+	border-bottom: 1px solid #ccc;	*/
+	position: absolute;
+	top: -39px;
+	line-height:40px;
+	text-align:center;
+	color: #fff;
+	font-size: 16px;
+	}
+	
+.Child{
+	position: absolute;
+	z-index: 2;
+	display: none;
+	}
+
+.Child .font-item1 {
+	position: absolute;
+	left: 197px;
+	top: -1px;
+	z-index: 100;
+	font-size: 12px;
+	width: 999px;
+	border-left: none;
+	background: #f7f7f7;
+	display: none;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+}	
+.Parent:hover  .Child{
+	display:block !important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
