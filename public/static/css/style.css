@@ -138,6 +138,12 @@ body {
 	font-size: 12px;
 }
 
+.nav_div .nav_ul>li {
+	color: #999;
+	font-size: 12px;
+	padding: 0 15px;
+}
+
 .nav_div .nav_li {
 	overflow: hidden;
 	line-height: 30px;
@@ -145,6 +151,7 @@ body {
 	height: 10px;
 	margin: 5px 15px 0 15px;
 	background-color: #ccc;
+	padding: 0 !important;
 }
 
 
@@ -1525,6 +1532,7 @@ body {
 .Hidden_menu li:hover {
 	background: #f5f5f5;
 }
+.MyCenter_div{margin-bottom: 20px;}
 
 .MyCenter_div dl {
 	padding-left: 20px;
@@ -1784,35 +1792,57 @@ body {
 	padding: 10px 0;
 }
 
-
 /*结尾*/
+.Ending_div{height: 500px !important; background-color: #eaeaea;}
+			.Ending_div .big-icon-div{padding: 30px 0;border-bottom: 1px solid #dedede;}
+				.Ending_div .big-icon-div>div{margin: 0 auto;width: 1190px;line-height: 42px;}
+				.Ending_div .big-icon-div .big-icon-ul{ overflow: hidden;height: 42px;margin: 0 !important;}
+				.Ending_div .big-icon-div .big-icon-ul>li{float: left; width: 297px;}
+				.Ending_div .big-icon-div .big-icon-ul>li>div{position: relative; margin: 0 auto; padding-left: 45px; width: 180px;}
+				.Ending_div .big-icon-div .big-icon-ul>li>div>i{font-size:40px;color:#C81623;overflow: hidden; position: absolute; left:0;top: 0;}
+				.Ending_div .big-icon-div .big-icon-ul>li>div>p{overflow: hidden;height: 42px;line-height: 42px;font-size: 18px;font-weight: 700;text-overflow: ellipsis;white-space: nowrap;color: #444;margin: 0 !important;}
+			.Ending_div .font-div1{padding: 20px 0;margin: 0 auto;  width: 1190px;color: #666}
+				.Ending_div .font-div1>dl{width: 270px;margin: 0 !important;;}
+				.Ending_div .font-div1>dl:last-child{width:110px;}
+				.Ending_div .font-div1>dl>dt{margin-bottom: 5px; font-size: 14px;font-weight: 600;}
+				.Ending_div .font-div1>dl>dd{line-height: 22px; font-size: 12px;}
+			.Ending_div .font-div2{padding: 15px 0;border-top: 1px solid #e1e1e1; margin: 0 auto; width: 1190px;font-size:12px;text-align: center;}	
+			.Ending_div .font-div2>p{color: #ccc;}
+			.Ending_div .font-div2>p>a{margin: 0 10px;color: #666}
+			.Ending_div .font-div2>div{padding: 10px 0;line-height: 22px; color: #999;}
+			.Ending_div .font-div2>div>p{color: #ccc;margin: 0 !important;}
+			.Ending_div .font-div2>div>p>a{margin: 0 10px;color: #999}
+			.Ending_div .font-div2>div .police-img{ margin: 0 5px;text-decoration: none;}
 
-.Ending {
+
+/*华海结尾*/
+
+/*.HuaHai_Ending {
 	width: 100%;
 	background: #fff;
 	border-bottom: 1px solid #dedede;
 }
 
-.Ending>ul {
+.HuaHai_Ending>ul {
 	width: 1100px;
 	margin: 0px auto;
 	padding: 40px 0 20px 0;
 }
 
-.Ending>ul>li {
+.HuaHai_Ending>ul>li {
 	width: 25%;
 }
 
-.Ending>ul>li>img {
+.HuaHai_Ending>ul>li>img {
 	margin-right: 5px;
 }
 
-.Ending-font {
+.HuaHai_Ending-font {
 	width: 100%;
 	background: #eaeaea;
 }
 
-.Ending-font>ul {
+.HuaHai_Ending-font>ul {
 	width: 1190px;
 	margin: 0px auto 20px auto;
 	padding:20px 0;
@@ -1820,30 +1850,30 @@ body {
 	
 }
 
-.Ending-font>ul>li {
+.HuaHai_Ending-font>ul>li {
 	width: 12%;
 	margin-left:6%;
 }
 
-.Ending-font>ul>li>ul>li {
+.HuaHai_Ending-font>ul>li>ul>li {
 	display: block;
 	font-size: 12px;
 	color: #666;
 	line-height: 21px;
 }
 
-.Ending-font>ul>li>ul>li:first-child {
+.HuaHai_Ending-font>ul>li>ul>li:first-child {
 	font-size: 17px;
 	color: #68686c;
 	line-height: 40px;
 }
 
-.Ending-font>p {
+.HuaHai_Ending-font>p {
 	font-size: 12px;
 	color: #666;
 	line-height: 20px;
 	text-align: center;
-}
+}*/
 /*鼠标控制菜单显示*/
 .Parent{
 	position: relative;
